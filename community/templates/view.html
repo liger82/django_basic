@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django tutorial - content</title>
+</head>
+<br>
+    제 목 : {{ article.title }}
+<br>
+    저 자 : {{ article.name }}
+<br>
+    날 짜 : {{ article.cdate|date:"D d M Y" }}
+<br>
+    email : {{ article.email}}
+<br>
+</html>
